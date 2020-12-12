@@ -5,7 +5,7 @@ Exposición de servicio REST (Resource) con dependencia sobre example_users ya q
 Metodos desarrollados: GET y PATCH
 Forma de autenticación: Basica, para correcto funcionamiento desde POSTMAN usar Autenticacion basica con las credenciales de administrador.
 
-1. Metodo GET: Consulta los usuarios creados a traves del formulario "/all" para verlos todos "/{id}" para ver uno en especifico.
+1. Metodo GET: Consulta los usuarios creados a traves del formulario adicionar a la ruta /example-crud/data, un "/all" para verlos todos "/{id}" para ver uno en especifico.
 2. Metodo PATH: Permite actualizar la información de un usuario en especifico a traves de indicarlo en la URL "/{id}" a traves de su ID.
   Ejemplo petición:
     ```
