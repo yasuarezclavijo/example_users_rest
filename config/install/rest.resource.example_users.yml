@@ -1,0 +1,11 @@
+id: example_users
+plugin_id: example_users
+granularity: resource
+configuration:
+  methods:
+    - GET
+    - PATCH
+  formats:
+    - json
+  authentication:
+    - basic_auth
